@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/styles/globalStyles.css">
+    <link rel="stylesheet" href="./src/styles/reset.css">
+    <link rel="stylesheet" href="./src/styles/index.css">
+
+    <title>Kenzie Empresas</title>
+</head>
+<body>
+    <header class="header__container">
+        <div class="header__logo-container">
+            <img src="./src/assets/ellipse.svg" alt="">
+            <img class="header__logo" src="./src/assets/kenzieLogo.svg" alt="">
+        </div>
+        <div class="header__button-container">
+            <a href="./src/pages/login.html"><input class="header__button butoon__Login" type="button" value="Login"></a>
+           <a href="./src/pages/register.html"><input class="header__button button__cadastro" type="button" value="Cadastro"></a>
+        </div>
+    </header>
+    <main class="main">
+        <img class="main__img" src="./src/assets/asidePhoto.svg" alt="">
+         <section class="main__section">
+            <select name="Setores" class="companies__container">
+                <option value="All">Selecione o Setor</option>
+            </select>
+            
+            <section class="section__list">
+
+                <h1 class="company__title">Lista de Empresas</h1>
+
+            <ul class="companies__list">
+              </ul>
+            </section>
+        </section>
+    </main>
+    <script src="./src/scripts/index.js" type="module" defer></script>
+</body>
+</html>

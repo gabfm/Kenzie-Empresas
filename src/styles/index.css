@@ -1,0 +1,107 @@
+.main__img{
+    width: 34.375rem;
+    height: 49.375rem;
+}
+
+main{
+    
+    max-height: 53.375rem;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2.6875rem 8.75rem 0 8.75rem;
+}
+
+.companies__container{
+    
+    cursor: pointer;
+    width: 31.25rem;
+    height: 3.2612rem;
+    left: 46.875rem;
+    top: 7.75rem;
+
+    background: #0000FF;
+
+    padding-left:.9375rem ;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.25rem;
+    line-height: 1.875rem;
+
+    color: #FFFFFF;
+}
+
+.section__list{
+    background: #F8F8F8;
+    padding: .625rem 2.0625rem 0 2.0625rem;
+    max-width: 31.25rem;
+   
+
+    display: flex;
+    flex-direction: column;
+    width: 34.375rem;
+    height: 49.375rem;
+}
+
+.company__title{
+    
+    margin-bottom: 1.25rem;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 2.4375rem;
+
+    color: #000000;
+}
+
+h3{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+
+    color: #000000;
+}
+
+.companies__list{
+    overflow-y:scroll;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    height: 42.875rem;
+}
+
+.list__item{
+    display: flex;
+    flex-direction: column;
+    padding: .9375rem;
+    justify-content: space-around;
+
+    min-height: 7.25rem;
+    border: .0625rem solid #0000FF;
+}
+
+.category__container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border: .0625rem solid #0000FF;
+    border-radius: 15.9375rem;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.1875rem;
+
+    color: #0000FF;
+
+    height: 2rem;
+    width: 5.8125rem;
+}
+
+
+

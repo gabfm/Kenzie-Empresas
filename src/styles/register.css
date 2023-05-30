@@ -1,0 +1,87 @@
+main{
+    background-image: url('../assets/backgroundPhoto.svg');
+    height: 59rem;
+    display: flex;
+    justify-content: center;
+}
+
+.input__container{
+    margin-top: 10%;
+    gap: .6875rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 2.5rem;
+
+    width: 31.625rem;
+    height: 30.5625rem;
+    background: rgba(255, 255, 255, 0.95);
+}
+
+.input__container h1{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2.5rem;
+    line-height: 3.75rem;
+
+    color: #000000;
+}
+
+input{
+    height: 3.25rem;
+    width: 90%;
+    padding: 1.0625rem;
+
+    background: #FFFFFF;
+    border: .0625rem solid rgba(0, 0, 0, 0.2);
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.125rem;
+    line-height: 1.375rem;
+
+    color: rgba(0, 0, 0, 0.5);
+}
+
+
+
+.return__button{
+    width: 26.625rem;
+    height: 3rem;
+    border: .0625rem solid #0000FF;
+    font-weight: 700;
+    font-size: 1.125rem;
+    line-height: 1.3125rem;
+    text-align: center;
+
+    color: #0000FF;
+}
+
+.register__button{
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), #0000FF;
+    width: 26.625rem;
+    height: 3rem;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.125rem;
+    line-height: 1.375rem;
+
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.toast__container{
+    font-family: "Inter", sans-serif;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    right: 0;
+
+    margin-top: 5.9375rem;
+
+    padding: 1.25rem 2.5rem;
+}
